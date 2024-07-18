@@ -1,0 +1,2 @@
+# SeedCoinBot
+SeedCoinBot App AutoClicker
