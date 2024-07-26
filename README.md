@@ -42,7 +42,10 @@ Before you begin, make sure you have the following installed:
    ```bash
    python main.py
    ```
+ 
+# Telegram Channel
 
+✅ Channel for information and training on Telegram airdrop bots 🔷 Follow us on Telegram : [SIZIFAIRDROP](https://t.me/sizifairdrop)
    
 # Discussion
 
