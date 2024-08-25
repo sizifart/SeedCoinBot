@@ -7,12 +7,12 @@
 ## Features  
 | Feature                                                     | Supported  |
 |---------------------------------------------------------------|:----------------:|
+| Auto-check-in                                                 |        ✅        |
+| Auto-upgrade                                                  |        ✅        |
+| Auto-tasks                                                    |        ✅        |
+| Auto-farming                                                  |        ✅        |
 | Multithreading                                                |        ✅        |
-| Auto-Mine                                                     |        ✅        |
-| Auto-Claim farm                                               |        ✅        |
-| UPGRADE SPEED                                                 |        ✅        |
-| UPGRADE STORAGE                                               |        ✅        |
-| Auto-start, auto-check and auto-claim tasks                   |        ✅        |
+| Proxy binding to session                                      |        ✅        |
 | Support for tdata / pyrogram .session / telethon .session     |        ✅        |
 
 
