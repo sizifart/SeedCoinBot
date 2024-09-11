@@ -5,15 +5,30 @@
 # 🔥🔥 Use PYTHON 3.10 🔥🔥
 
 ## Features  
-| Feature                                                     | Supported  |
-|---------------------------------------------------------------|:----------------:|
-| Auto-check-in                                                 |        ✅        |
-| Auto-upgrade                                                  |        ✅        |
-| Auto-tasks                                                    |        ✅        |
-| Auto-farming                                                  |        ✅        |
-| Multithreading                                                |        ✅        |
-| Proxy binding to session                                      |        ✅        |
-| Support for tdata / pyrogram .session / telethon .session     |        ✅        |
+| Feature                                                   | Supported |
+|-----------------------------------------------------------|:---------:|
+| Multithreading                                            |     ✅     |
+| Proxy binding to session                                  |     ✅     |
+| Support for tdata / pyrogram .session / telethon .session |     ✅     |
+| Auto-farming                                              |     ✅     |
+| Auto-tasks                                                |     ✅     |
+| Auto-upgrade                                              |     ✅     |
+| Auto-check-in                                             |     ✅     |
+| Auto-hunt                                                 |     ✅     |
+
+
+## [Settings](https://github.com/sizifart/SeedCoinBot/blob/main/.env-example)
+
+# Use default setting for best performance !
+| Settings                |                                 Description                                 |
+|-------------------------|:---------------------------------------------------------------------------:|
+| **API_ID / API_HASH**   | Platform data from which to run the Telegram session (by default - android) |
+| **AUTO_UPGRADE_STORAGE**|                   Auto upgrade storage  (by default - True)                 |
+| **AUTO_UPGRADE_MINING** |                  Auto upgrade mining speed (by default - True)              |
+| **AUTO_UPGRADE_HOLY**   |                    Auto upgrade holy (by default - True)                    |
+| **AUTO_TASK**           |                       Auto tasks (default - True)                           |
+| **AUTO_START_HUNT**     |                    Auto start hunt (default - True)                         |
+| **USE_PROXY_FROM_FILE** | Whether to use a proxy from the bot/config/proxies.txt file (True / False)  |
 
 
 ## Prerequisites
