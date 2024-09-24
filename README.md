@@ -15,6 +15,7 @@
 | Auto-upgrade                                              |     ✅     |
 | Auto-check-in                                             |     ✅     |
 | Auto-hunt                                                 |     ✅     |
+| Auto-sell worms                                           |     ✅     |
 
 
 ## [Settings](https://github.com/sizifart/SeedCoinBot/blob/main/.env-example)
@@ -28,6 +29,8 @@
 | **AUTO_UPGRADE_HOLY**   |                    Auto upgrade holy (by default - True)                    |
 | **AUTO_TASK**           |                       Auto tasks (default - True)                           |
 | **AUTO_START_HUNT**     |                    Auto start hunt (default - True)                         |
+| **AUTO_SELL_WORMS**     |           Auto sell worms (default - True)                                  |
+| **QUANTITY_TO_KEEP**     |    Quantity to keep worms check instruction                                |
 | **USE_PROXY_FROM_FILE** | Whether to use a proxy from the bot/config/proxies.txt file (True / False)  |
 
 
@@ -42,8 +45,7 @@ Before you begin, make sure you have the following installed:
 3. Record the API_ID and API_HASH provided after registering your application in the .env file.
 
 ## Auto Install/Run
-- Click on Install.bat to automatically install the required dependencies 
-- Then click on START.bat to run the project
+- Click on RUN.bat to automatically install the required dependencies and run the project
 
 ## Menual Install/Run
 1. Install the required dependencies:
@@ -61,7 +63,10 @@ Before you begin, make sure you have the following installed:
 # Telegram Channel
 
 ✅ Channel for information and training on Telegram airdrop bots 🔷 Follow us on Telegram : [SIZIFAIRDROP](https://t.me/sizifairdrop)
-   
+
+# Donate
+Your donations help us continue our work. Thank you for your support! | 💳 [Donate](https://sizvpn.com/donate/)  
+
 # Discussion
 
 If you have an question or something you can ask in here : [F.Davoodi](https://t.me/sizifart)
