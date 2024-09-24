@@ -322,7 +322,7 @@ class Tapper:
                     if bird_data is None:
                         logger.info(f"{self.session_name} | Can't get bird data...")
                     elif bird_data['status'] == "hunting":
-                        given_time = datetime.fromisoformat(bird_data['hunt_end_at'])
+                        given_time = datetime.strptime(bird_data['hunt_end_at'], '%Y-%m-%dT%H:%M:%S.%fZ')
                         timestamp_naive = given_time.replace(tzinfo=None)
                         now = datetime.utcnow()
                         if now < timestamp_naive:
@@ -405,7 +405,7 @@ class Tapper:
                 raise error
 
             except Exception as error:
-                # traceback.print_exc()
+                #traceback.print_exc()
                 logger.error(f"{self.session_name} | Unknown error: {error}")
                 await asyncio.sleep(delay=randint(60, 120))
 
